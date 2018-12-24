@@ -5,3 +5,4 @@ lib/
 dist/
 esm/
 yarn-error.log
+package-lock.json

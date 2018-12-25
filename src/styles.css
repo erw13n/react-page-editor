@@ -144,3 +144,49 @@ body {
 .opacity-ghost-drop {
   background-color: #fff;
 }
+
+
+
+
+
+
+
+
+
+/* TABS STYLE */
+.tabs {
+}
+.tabs > ul {
+  border-bottom: 1px solid #303131;
+  margin: 0 0;
+  padding: 0 24px;
+}
+.tabs > ul > li {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #aaa;
+  font-size: 13px;
+}
+.tabs > ul > li.selected {
+  border-bottom: solid 2px #eee;
+  color: #eee;
+}
+.tabs .tab-content {
+  padding: 0;
+}
+.tabs .tab-content > h4 {
+  margin: 0 0 10px;
+  padding: 0;
+  line-height: 54px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  border-bottom: solid 1px #333;
+  padding: 0 24px;
+}

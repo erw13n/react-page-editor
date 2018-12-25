@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import Sidebar from "./Sidebar";
-import Content from "./Content";
+import MainContent from "./MainContent";
 
 const Container = styled.div({
   height: "100%",
@@ -31,7 +31,7 @@ export default class Layout extends React.Component {
       <Container>
         <Editor>
           <Sidebar />
-          <Content />
+          <MainContent />
         </Editor>
       </Container>
     );

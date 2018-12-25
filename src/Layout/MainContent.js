@@ -15,7 +15,7 @@ const EditorPreview = styled.div({
   overflowY: "scroll"
 });
 
-export default class Content extends React.Component {
+export default class MainContent extends React.Component {
   render() {
     return (
       <EditorPreview>

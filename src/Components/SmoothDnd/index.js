@@ -1,6 +1,4 @@
 import React from "react";
-
-import Editor from './Editor';
 import View from './View';
 
 const groupStyle = {
@@ -9,9 +7,7 @@ const groupStyle = {
 };
 
 
-class MySmoothDnd extends React.Component {
-  render() {
-
+export default function MySmoothDnd() {
     return (
       <div
         style={{
@@ -22,14 +18,8 @@ class MySmoothDnd extends React.Component {
         }}
       >
         <div style={groupStyle}>
-          <Editor />
-        </div>
-        <div style={groupStyle}>
           <View />
         </div>
       </div>
     );
-  }
 }
-
-export default MySmoothDnd;

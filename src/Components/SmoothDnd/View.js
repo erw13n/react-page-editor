@@ -10,17 +10,16 @@ const Section_View = styled.div`
   border: dashed 1px #444;
   font-size: 10px;
   padding: 5px 0;
+  min-height: 50px;
 `;
 
 export default class View extends React.Component {
   state = {
     views:[
       {
-        name: "1 Column",
         columns: [12]
       },
       {
-        name: "2 Column",
         columns: [6, 6]
       },
     ],
